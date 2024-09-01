@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="timer-container">
+        <h1>Web Timer</h1>
+        <div class="timer-display">
+            <p>Elapsed Time: <span id="elapsed-time">00:00:00</span></p>
+            <p>Remaining Time: <span id="remaining-time">00:00:00</span></p>
+        </div>
+        <div class="timer-controls">
+            <input type="number" id="timer-duration" placeholder="Enter duration in seconds">
+            <button id="start-timer">Start Timer</button>
+            <button id="pause-timer">Pause Timer</button>
+            <button id="reset-timer">Reset Timer</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
